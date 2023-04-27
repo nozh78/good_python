@@ -8,5 +8,3 @@ while count < 6:
         p[num] = 1
     count += 1
 print(*p)
-
-# test, изменения для пуша на гитхаб

@@ -45,3 +45,20 @@
 #         break
 # else:
 #     print("ДА")
+
+# Подвиг 5
+# Вводится список имен студентов в одну строчку через пробел. Определить, что
+# хотя бы одно имя в этом списке начинается и заканчивается на ту же самую букву
+# (без учета регистра). Реализовать программу с использованием цикла while и
+# оператора break. Вывести ДА, если условие выполняется и НЕТ - в противном случае.
+# students = input()
+# students_list = students.split()
+# count = 0
+# while count < len(students_list):
+#     if students_list[count][0].lower() != students_list[count][-1].lower():
+#         count += 1
+#     else:
+#         print("ДА")
+#         break
+# else:
+#     print("НЕТ")

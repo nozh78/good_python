@@ -51,3 +51,12 @@
 # cities = input().split()
 # for city in cities:
 #     print(len(city), end=" ")
+
+
+# Подвиг 7
+# Вводится натуральное число n. С помощью цикла for найти все делители этого числа.
+# Найденные делители выводить сразу в столбик без формирования списка.
+# num = int(input())
+# for i in range(1, num + 1):
+#     if num % i == 0:
+#         print(i)

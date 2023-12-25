@@ -72,3 +72,32 @@
 #         break
 # else:
 #     print("ДА")
+
+
+# Подвиг 9
+# Вводится список названий городов в одну строчку через пробел. Перебрать все эти
+# названия с помощью цикла for и определить, начинается ли название следующего
+# города на последнюю букву предыдущего города в списке. Если последними встречаются
+# буквы 'ь', 'ъ', 'ы', то берется следующая с конца буква. Вывести на экран ДА,
+# если последовательность удовлетворяет этому правилу и НЕТ - в противном случае.
+# cities = input()
+# cities_list = cities.split()
+# satisfies_rule = True
+
+# for i in range(len(cities_list) - 1):
+#     current_city = cities_list[i]
+#     next_city = cities_list[i + 1]
+
+#     last_letter = current_city[-1]
+
+#     if last_letter in ["ь", "ъ", "ы"]:
+#         last_letter = current_city[-2]
+
+#     if next_city[0].lower() != last_letter.lower():
+#         satisfies_rule = False
+#         break
+
+# if satisfies_rule:
+#     print("ДА")
+# else:
+#     print("НЕТ")
